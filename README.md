@@ -5,9 +5,10 @@ I hope you are well. Please continue to take care of yourself and your loved one
 Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. i'm excited to share what I have learned. Let's get to it! 
 
    
-# Union and Join Query                                                                                                                                                6/24/2020
+## dailycoding 001 of 365 -  Union and Join Query                                                                                                                              
 
-# #dailycoding 001 of 365
+6/24/2020
+
 
 I started learning TSQL with a Microsoft Certified Instructor back in October of 2019. While job searching and quarantining from the pandemic, I am designing own projects and visualizations to build my portfolio. 
 
@@ -26,5 +27,5 @@ I’m particularly excited about this project because I got to practice my UNION
 It is a work in progress, but I would love to hear your constructive and actionable feedback on what I could add or improve. Thank you! 
 
 
-![UNION AND JOIN PICTURE](images/LinkedIn_AdventureWorks.PNG "UNION AND JOINS")
+
 
