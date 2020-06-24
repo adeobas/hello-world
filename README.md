@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## How are you? Are you staying safe and healthy? 
+I hope you are well. Please continue to take care of yourself and your loved ones during the current outbreak and pandemic. 
 
-You can use the [editor on GitHub](https://github.com/adeobas/hello-world/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Welcome to my Data Analytics Portfolio! 
+Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. i'm excited to share what I have learned. Let's get to it! 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ 
+## ADVENTURE WORKS DW 2017 - RESELLER AND INTERNET SALES QUERY                                                                                                    6/24/2020
 
-### Markdown
+### #dailycoding 001 of 365
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I started learning TSQL with a Microsoft Certified Instructor back in October of 2019. While job searching and quarantining from the pandemic, I am designing own projects and visualizations to build my portfolio. 
 
-```markdown
-Syntax highlighted code block
+This batch of TSQL code is based off Microsoft SQL Server’s 2017 Adventure Works database. For those of you not familiar with the Adventure Works database, it supports a fictitious, multinational manufacturing company called Adventure Works Cycles. It is a Microsoft product sample for an online transaction processing (OLTP) database. 
 
-# Header 1
-## Header 2
-### Header 3
+I’m particularly excited about this project because I got to practice my UNIONS and JOINS and really dig into how I needed to structure my queries to get the results that I desired from the database records. My main goals are as follows: 
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+  1.	Determine Adventure Works overall profitability and what percentage of it is derived from Reseller vs. Internet Sales.
 
-**Bold** and _Italic_ and `Code` text
+  2.	Discover trends and pattens in customer demographics.  
 
-[Link](url) and ![Image](src)
-```
+  3.	Suggest a course of action to increase profitability based on my customer and product segmentation analysis. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+It is a work in progress, but I would love to hear your constructive and actionable feedback on what I could add or improve. Thank you! 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/adeobas/hello-world/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
