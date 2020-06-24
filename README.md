@@ -4,10 +4,10 @@ I hope you are well. Please continue to take care of yourself and your loved one
 ## Welcome to my Data Analytics Portfolio! 
 Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. i'm excited to share what I have learned. Let's get to it! 
 
- 
-## ADVENTURE WORKS DW 2017 - RESELLER AND INTERNET SALES QUERY                                                                                                    6/24/2020
+   
+# Union and Join Query                                                                                                                                                6/24/2020
 
-### #dailycoding 001 of 365
+# #dailycoding 001 of 365
 
 I started learning TSQL with a Microsoft Certified Instructor back in October of 2019. While job searching and quarantining from the pandemic, I am designing own projects and visualizations to build my portfolio. 
 
