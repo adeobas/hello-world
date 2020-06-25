@@ -27,5 +27,7 @@ I’m particularly excited about this project because I got to practice my UNION
 It is a work in progress, but I would love to hear your constructive and actionable feedback on what I could add or improve. Thank you! 
 
 
+![Adventure Works Pictures](/images/LinkedIn_AdventureWorks.PNG)
+
 
 
