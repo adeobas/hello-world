@@ -13,7 +13,7 @@ Please feel free to take a look through some of the projects I've created to bui
 
 
    
-## dailycoding 001 of 365 -  Union and Join Query                                                                                                                              
+## #dailycoding 001 of 365 -  Union and Join Query                                                                                                                              
 
 6/24/2020
 
@@ -39,6 +39,55 @@ It is a work in progress, but I would love to hear your constructive and actiona
 
 
 ![Adventure Works Pictures](/images/LinkedIn_AdventureWorks.PNG)
+
+
+
+
+   
+## #dailycoding 002 of 365 -  Subquery        
+
+6/25/20
+
+
+Today my #dailycoding challenge was to join the UNION I created in yesterday’s post (link) with each distinct date’s corresponding month name, month number, calendar year, etc. using #Microsoft’s Adventure Works database. I had two options. I could use a subquery or a CTE also known as a Common Table Expression. Both are similar in that they allow you to reference a separate query within a larger query, only difference is CTEs are easier to read according to #Stackoverflow.
+
+Because I was trying to match dimensions to orderdates I already pulled, I opted for the subquery. Writing a joining a subquery in the from clause would give me a direct route to matching my fields. 
+
+&nbsp;
+
+
+This query can be broken down into 3 parts as follows: 
+&nbsp;
+
+
+
+SELECT query: Selecting all columns I would like to be visible in the results from the date dimensions table. 
+
+![Adventure Works Pictures](/images/002_select.PNG)
+&nbsp;
+
+SUBQUERY: The highlighted portion is the actual subquery sitting within the FROM clause. This is the table where the columns listed in the SELECT distinct clause will pull from. 
+&nbsp;
+
+![Adventure Works Pictures](/images/002_join.PNG)
+
+&nbsp;
+
+ORDER BY:  Then I ordered the columns in the same order as the SELECT clause for a nice finishing touch. 
+ 
+
+![Adventure Works Pictures](/images/002_orderby.PNG)
+
+&nbsp;
+
+![Adventure Works Pictures](/images/LinkedIn_AdventureWorks_002.PNG)
+&nbsp;
+
+The one thing I couldn’t figure out was how to insert the orderdate columns from both FactResellerSales and the FactInternetSales in the SELECT portion of my query without returning unnecessary records. I know I can relate the orderdate column in the data model when needed in #PowerBI, #Excel, and #Tableau, but if anyone has a solution on how I can do it in #SQLServer that would be so cool! 
+
+
+ 
+
 
 
 
