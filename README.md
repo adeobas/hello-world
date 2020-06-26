@@ -10,40 +10,37 @@ Please feel free to take a look through some of the projects I've created to bui
 
 
 
+## #dailycoding 003 of 365 -  Dear Rona         
+
+6/26/20
+
+#dailycoding 003 of 365
+
+How are you? Are you staying safe and healthy? Many of us have been quarantining March and seeing as to how the United States saw a record number of 37,077  new cases in a single day, I thought it would be appropriate to share a #COVID19 dashboard exercise I did in April as part of my Emory Business Intelligence Certificate right before the pandemic’s peak.
+&nbsp;
+
+Using data from the John Hopkins #GitHub repository, I created a visualization in Excel. I transformed the data by transposing the rows and creating relationships among the tables in PowerPivot. And while it wasn’t necessary at the time (it will certainly be useful in future now that different parts of the world are opening and reclosing), I broke down my date table into more descriptors by using #DAX formulas like “=FORMAT(DATEVALUE(‘Dates’[Dates]), “ddd”) to get the weekday and to later connect my data model. This project was perfect for using pivot tables to see the weekly increase in coronavirus cases. I thought it was particularly interesting to see Australia as a country hit early by the pandemic. This made sense after learning that China is the largest Australian beef importer. Could it be possible that the virus was transmitted via person to person contact through trade? Just a thought experiment. Stay healthy! 
+&nbsp;
+
+*Please note that this dashboard was created in April and that the total global confirmed cases have significantly decreased since then. Thank you 
+
+&nbsp;
 
 
-   
-## #dailycoding 001 of 365 -  Union and Join Query                                                                                                                              
-
-6/24/2020
-
-
-I started learning TSQL with a Microsoft Certified Instructor back in October of 2019. While job searching and quarantining from the pandemic, I am designing own projects and visualizations to build my portfolio. 
-
-
-This batch of TSQL code is based off Microsoft SQL Server’s 2017 Adventure Works database. For those of you not familiar with the Adventure Works database, it supports a fictitious, multinational manufacturing company called Adventure Works Cycles. It is a Microsoft product sample for an online transaction processing (OLTP) database. 
-
-
-I’m particularly excited about this project because I got to practice my UNIONS and JOINS and really dig into how I needed to structure my queries to get the results that I desired from the database records. My main goals are as follows: 
-
-
-  1.	Determine Adventure Works overall profitability and what percentage of it is derived from Reseller vs. Internet Sales.
-
-  2.	Discover trends and pattens in customer demographics.  
-
-  3.	Suggest a course of action to increase profitability based on my customer and product segmentation analysis. 
-
-
-It is a work in progress, but I would love to hear your constructive and actionable feedback on what I could add or improve. Thank you! 
+![Rona Picture 000301](/images/LinkedIn_AprilCovidDash.PNG)
 
 
 
-![Adventure Works Pictures](/images/LinkedIn_AdventureWorks.PNG)
+&nbsp;
+
+
+![Rona Picture 000301](/images/LinkedIn_AprilCovid19.PNG)
 
 
 
+&nbsp;
 
-   
+
 ## #dailycoding 002 of 365 -  Subquery        
 
 6/25/20
@@ -85,6 +82,41 @@ ORDER BY:  Then I ordered the columns in the same order as the SELECT clause for
 
 The one thing I couldn’t figure out was how to insert the orderdate columns from both FactResellerSales and the FactInternetSales in the SELECT portion of my query without returning unnecessary records. I know I can relate the orderdate column in the data model when needed in #PowerBI, #Excel, and #Tableau, but if anyone has a solution on how I can do it in #SQLServer that would be so cool! 
 
+&nbsp;
+
+
+   
+## #dailycoding 001 of 365 -  Union and Join Query                                                                                                                              
+
+6/24/2020
+
+
+I started learning TSQL with a Microsoft Certified Instructor back in October of 2019. While job searching and quarantining from the pandemic, I am designing own projects and visualizations to build my portfolio. 
+
+
+This batch of TSQL code is based off Microsoft SQL Server’s 2017 Adventure Works database. For those of you not familiar with the Adventure Works database, it supports a fictitious, multinational manufacturing company called Adventure Works Cycles. It is a Microsoft product sample for an online transaction processing (OLTP) database. 
+
+
+I’m particularly excited about this project because I got to practice my UNIONS and JOINS and really dig into how I needed to structure my queries to get the results that I desired from the database records. My main goals are as follows: 
+
+
+  1.	Determine Adventure Works overall profitability and what percentage of it is derived from Reseller vs. Internet Sales.
+
+  2.	Discover trends and pattens in customer demographics.  
+
+  3.	Suggest a course of action to increase profitability based on my customer and product segmentation analysis. 
+
+
+It is a work in progress, but I would love to hear your constructive and actionable feedback on what I could add or improve. Thank you! 
+
+
+
+![Adventure Works Pictures](/images/LinkedIn_AdventureWorks.PNG)
+
+
+
+
+   
 
  
 
