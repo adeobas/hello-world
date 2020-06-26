@@ -2,13 +2,20 @@
 I hope you are well. Please continue to take care of yourself and your loved ones during the current outbreak and pandemic. 
 
 
+&nbsp;
 
-
+&nbsp;
 
 ## Welcome to my Data Analytics Portfolio! 
 Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. i'm excited to share what I have learned. Let's get to it! 
 
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ## #dailycoding 003 of 365 -  Dear Rona         
 
@@ -40,6 +47,7 @@ Using data from the John Hopkins #GitHub repository, I created a visualization i
 
 &nbsp;
 
+&nbsp;
 
 ## #dailycoding 002 of 365 -  Subquery        
 
@@ -84,6 +92,7 @@ The one thing I couldn’t figure out was how to insert the orderdate columns fr
 
 &nbsp;
 
+&nbsp;
 
    
 ## #dailycoding 001 of 365 -  Union and Join Query                                                                                                                              
