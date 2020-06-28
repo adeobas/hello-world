@@ -25,15 +25,15 @@ Today, I cracked open #Microsoft’s The Definitive Guide to DAX by Marco Russo 
 
 
 
-1.      Understanding the direction of a relationship between tables is important when writing DAX queries. This allows one to see how columns that are filtered within and between two tables will bring back the desired and correct values when executing a query or building a pivot table for analysis.  
+ 1. Understanding the direction of a relationship between tables is important when writing DAX queries. This allows one to see how columns that are filtered within and between two tables will bring back the desired and correct values when executing a query or building a pivot table for analysis.  
 
 
 
-2.      All #DAX queries use LEFT OUTER JOINS to retrieve values. The model already knows the existing relationship built between two tables you are attempting to query. This relationship becomes part of the model and saving you the trouble of having to specify. 
+ 2. All #DAX queries use LEFT OUTER JOINS to retrieve values. The model already knows the existing relationship built between two tables you are attempting to query. This relationship becomes part of the model and saving you the trouble of having to specify. 
 
 
 
-3.      They both have similar structures and features when it comes to executing subqueries! The main difference, depending on how you are performing the subquery is that DAX uses a function called FILTER instead of the WHERE clause to retrieve columns. 
+3. They both have similar structures and features when it comes to executing subqueries! The main difference, depending on how you are performing the subquery is that DAX uses a function called FILTER instead of the WHERE clause to retrieve columns. 
 
  
 
