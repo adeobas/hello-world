@@ -30,6 +30,7 @@ Today, I cracked open #Microsoft’s The Definitive Guide to DAX by Marco Russo 
 
 
 3. They both have similar structures and features when it comes to executing subqueries! The main difference, depending on how you are performing the subquery is that DAX uses a function called FILTER instead of the WHERE clause to retrieve columns. 
+
 &nbsp;
  
 
