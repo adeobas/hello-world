@@ -8,6 +8,61 @@ I hope you are well. Please continue to take care of yourself and your loved one
 
 ## Welcome to my Data Analytics Portfolio! 
 Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. i'm excited to share what I have learned. Let's get to it! 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+## #dailycoding 006 of 365 
+
+6/29/20
+
+Hey y’all
+Today I have an update on my AdventureWorks profitability project. Before I start visualizing data, I like to get comfortable with what I’ll be working with. The first steps in doing so are to: 
+1.	Extract my data from #SQL Server
+2.	Import my data into #Excel 
+3.	Clean my data by correcting spaces, misspelling, applying data types, and lastly, building a data model. 
+I typically follow the standard protocol of building my data model around the date table, making sure that each table has a somewhat direct connection. The #AdventureWorks database did not come with preinstalled times for time intelligence calculations, but I am excited to see what the data says about sales seasonality and if there is any. What is your approach to data modeling? Are you in the traditional camp where you create a date table and expand from there? Or do you take a more creative approach?  I wanna know, please show me (insert Phil Collins’ 1999 song “Strangers Like Me”)! Leave your thoughts in the comments! 
+You can also follow my data journey here at https://github.com/adeobas/portfolio
+#datamodeling #continuouslearning
+
+&nbsp;
+
+![TableauPicture](/images/LinkedIn_006.PNG)
+
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+## #dailycoding 005 of 365
+
+6/28/20
+
+Today’s lesson is brought to you by the makers of #Tableau and the slogan ‘Answer questions as fast you can think them’. Haha today I decided to share something new I learned from Tableau’s #analyst elearning path. The following information is part of the tutorial on creating a quality control chart to visualize seasonality which helps with forecasting sales and making changes to business processes so that operations run more smoothly 😊 
+
+For this chart, I was tasked with: 
+
+1.	Creating a parameter to define the upper and lower bounds per pane in the chart. 
+
+2.	Writing out a calculation to find sales that fell outside the upper and lower bounds of the control chart. 
+
+The parameter for the upper and lower bounds used a function called WINDOW to find the SUM of the sales +/- the WINDOW of the standard deviation in the sales values. Once I did that, I then used an IF/THEN statement to find the sales didn’t meet the criteria of the upper and lower parameters. 
+
+One thing that I really like about Tableau is that writing formulas is similar to writing IF/THEN formulas in #Excel  and CASE statements in TSQL (if you don’t know by now, I’m crazy about SQL lol) . 
+
+I highly recommend taking the #elearning courses on Tableau. There is a 90-day free promotion ending on June 30th. Also, the Tableau Desktop Specialist exam is on sale for $50 until then as well. So, get it while you still can! 
+
+
+#continuouslearning 
+
+&nbsp;
+
+![TableauPicture](/images/LinkedIn_005.PNG)
+
 
 &nbsp;
 
@@ -16,6 +71,8 @@ Please feel free to take a look through some of the projects I've created to bui
 &nbsp;
 
 ## #dailycoding 004 of 365
+
+6/27/20
 
 Today, I cracked open #Microsoft’s The Definitive Guide to DAX by Marco Russo and Alberto Ferrari to get a better grasp on overall language theory and was pleasantly surprised to learn about three similarities #SQL and DAX. Here are some cool theoretical tidbits I learned: 
 
@@ -43,8 +100,6 @@ Stay safe and healthy!
 ## #dailycoding 003 of 365 -  Dear Rona         
 
 6/26/20
-
-#dailycoding 003 of 365
 
 How are you? Are you staying safe and healthy? Many of us have been quarantining March and seeing as to how the United States saw a record number of 37,077  new cases in a single day, I thought it would be appropriate to share a #COVID19 dashboard exercise I did in April as part of my Emory Business Intelligence Certificate right before the pandemic’s peak.
 &nbsp;
