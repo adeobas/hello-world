@@ -8,6 +8,48 @@ I hope you are well. Please continue to take care of yourself and your loved one
 
 ## Welcome to my Data Analytics Portfolio! 
 Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. i'm excited to share what I have learned. Let's get to it! 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+## #dailycoding 008 of 365 
+A couple of my colleagues and friends have reached to ask about my process for my #dailycoding challenge and to be honest, my process is both unstructured and structured like the data you and I encounter day after day. 
+&nbsp;
+
+Similar to how one extracts data from various sources (e.g. Excel, text files, SQL queries, etc.), pull ideas from textbooks, YouTube videos and channels, Boolean searches via #Google (it’s your best friend), and the ever so handy #StackOverflow (next best friend after Google).
+&nbsp;
+
+I find the most efficient way to start a daily coding challenge is to find a dataset that interests you, and build a project around that, and break it down into smaller more manageable weekly and monthly goals. As yourself questions a stakeholder would about grand total revenue by region, the overall profit ratio for the company, how the current pandemic is affecting this quarter’s sales as compared to sales from last quarter and in what segments. Your questions will be different depending on your industry, but hopefully you get the gist. 
+&nbsp;
+
+Let your curiosity about gleaning insight from a business problem or data set drive you. Challenge yourself by finding a new way to visualize data. Do some beginner tutorials in #DAX or #Python. Register for a hackathon and then share your experience on #LinkedIn.  Follow the daily coding hashtag on LinkedIn and see what your colleagues are up to, maybe you can get some inspiration from there (and connect with those people). Just be creative and have fun 😊 
+If you are still stuck and do not know where to begin, here are a few sites that can get you started on the do’s and don’ts:
+&nbsp;
+
+1.	 https://storybydata.com/dailycoding/ 
+2. 	https://towardsdatascience.com/
+3. 	https://www.linkedin.com/pulse/my-first-100daysofcode-jessica-greene/
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+## #dailycoding 007 of 365 
+
+6/30/2020
+
+My #BusinessIntelligence course at #EmoryUniversity was the best five months ever. I learned a lot about how to conduct analysis in different industries. One of my favorite capstone exercises was this Patient Appointment analysis. My classmates and I had to create a dashboard on why the anonymized hospital had a high rate of patient no -shows. It was my first time encountering a dataset that had time stamps attached to each date and I was OBSESSED with trying to make sense of this data. So what did I do? Naturally, I scoured the internet in search of a #timeintelligence calculation that would help me create a time key table to relate to my date table.
+&nbsp;
+
+I stumbled upon this video (https://youtu.be/8DFih8ccMV0) from the #GuyinaCube YouTube channel. I followed his method and adapted the code to my own data. Then visualized the times by month and hour in the line graphs below. I concluded that there was a direct correlation between the times when patients initially scheduled their appointments and whether they showed up for them. My recommendation was to make an adjustment to when people were allowed to make appointments, saving the hospital time (lol) and money. I had so much fun doing this exercise and look forward to doing more #DAX related time calculations.  
+
+![TimeIntelligenceCalculation](/images/LinkedIn_007.PNG)
+
 &nbsp;
 
 &nbsp;
