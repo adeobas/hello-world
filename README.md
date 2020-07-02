@@ -14,8 +14,12 @@ Please feel free to take a look through some of the projects I've created to bui
 &nbsp;
 
 &nbsp;
-
 ## #dailycoding 008 of 365 
+
+7/1/2020
+
+Where to Start 
+
 A couple of my colleagues and friends have reached to ask about my process for my #dailycoding challenge and to be honest, my process is both unstructured and structured like the data you and I encounter day after day. 
 &nbsp;
 
@@ -38,10 +42,11 @@ If you are still stuck and do not know where to begin, here are a few sites that
 &nbsp;
 
 &nbsp;
-
 ## #dailycoding 007 of 365 
 
 6/30/2020
+
+Guy in a Cube
 
 My #BusinessIntelligence course at #EmoryUniversity was the best five months ever. I learned a lot about how to conduct analysis in different industries. One of my favorite capstone exercises was this Patient Appointment analysis. My classmates and I had to create a dashboard on why the anonymized hospital had a high rate of patient no -shows. It was my first time encountering a dataset that had time stamps attached to each date and I was OBSESSED with trying to make sense of this data. So what did I do? Naturally, I scoured the internet in search of a #timeintelligence calculation that would help me create a time key table to relate to my date table.
 &nbsp;
@@ -59,6 +64,8 @@ I stumbled upon this video (https://youtu.be/8DFih8ccMV0) from the #GuyinaCube Y
 ## #dailycoding 006 of 365 
 
 6/29/20
+
+Adventure Model
 
 Hey y’all
 Today I have an update on my AdventureWorks profitability project. Before I start visualizing data, I like to get comfortable with what I’ll be working with. The first steps in doing so are to: 
@@ -83,6 +90,8 @@ You can also follow my data journey here at https://github.com/adeobas/portfolio
 ## #dailycoding 005 of 365
 
 6/28/20
+
+Tableau eLearnin'
 
 Today’s lesson is brought to you by the makers of #Tableau and the slogan ‘Answer questions as fast you can think them’. Haha today I decided to share something new I learned from Tableau’s #analyst elearning path. The following information is part of the tutorial on creating a quality control chart to visualize seasonality which helps with forecasting sales and making changes to business processes so that operations run more smoothly 😊 
 
@@ -116,6 +125,8 @@ I highly recommend taking the #elearning courses on Tableau. There is a 90-day f
 
 6/27/20
 
+DAX is Back
+
 Today, I cracked open #Microsoft’s The Definitive Guide to DAX by Marco Russo and Alberto Ferrari to get a better grasp on overall language theory and was pleasantly surprised to learn about three similarities #SQL and DAX. Here are some cool theoretical tidbits I learned: 
 
 &nbsp;
@@ -139,9 +150,11 @@ Stay safe and healthy!
 
 &nbsp;
 
-## #dailycoding 003 of 365 -  Dear Rona         
+## #dailycoding 003 of 365       
 
 6/26/20
+
+Dear Rona   
 
 How are you? Are you staying safe and healthy? Many of us have been quarantining March and seeing as to how the United States saw a record number of 37,077  new cases in a single day, I thought it would be appropriate to share a #COVID19 dashboard exercise I did in April as part of my Emory Business Intelligence Certificate right before the pandemic’s peak.
 &nbsp;
@@ -169,10 +182,11 @@ Using data from the John Hopkins #GitHub repository, I created a visualization i
 
 &nbsp;
 
-## #dailycoding 002 of 365 -  Subquery        
+## #dailycoding 002 of 365         
 
 6/25/20
 
+Subquery
 
 Today my #dailycoding challenge was to join the UNION I created in yesterday’s post (link) with each distinct date’s corresponding month name, month number, calendar year, etc. using #Microsoft’s Adventure Works database. I had two options. I could use a subquery or a CTE also known as a Common Table Expression. Both are similar in that they allow you to reference a separate query within a larger query, only difference is CTEs are easier to read according to #Stackoverflow.
 
@@ -215,9 +229,11 @@ The one thing I couldn’t figure out was how to insert the orderdate columns fr
 &nbsp;
 
    
-## #dailycoding 001 of 365 -  Union and Join Query                                                                                                                              
+## #dailycoding 001 of 365                                                                                                                             
 
 6/24/2020
+
+Union and Join Query  
 
 
 I started learning TSQL with a Microsoft Certified Instructor back in October of 2019. While job searching and quarantining from the pandemic, I am designing own projects and visualizations to build my portfolio. 
