@@ -15,6 +15,9 @@ Please feel free to take a look through some of the projects I've created to bui
 
 &nbsp;
 ## #dailycoding 009 of 365
+
+07/2/2020
+
 Today was a reading kind of day. I had the pleasure of delving into Learning Python 5th Edition by Mark Lutz. This book is great if you’re new to Python and want to understand it’s core principles and language. Find a comfortable chair though because it’s a long one. Here’s what I learned in it’s first chapter: 
 
 1. Python has high program portability meaning that you can run the program and copy code from one computer platform to another with paramount ease. Running code on #Linux and be easily transferred to Python on Windows or Mac and vice versa. 
