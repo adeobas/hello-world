@@ -14,6 +14,24 @@ Please feel free to take a look through some of the projects I've created to bui
 &nbsp;
 
 &nbsp;
+## #dailycoding 009 of 365
+Today was a reading kind of day. I had the pleasure of delving into Learning Python 5th Edition by Mark Lutz. This book is great if you’re new to Python and want to understand it’s core principles and language. Find a comfortable chair though because it’s a long one. Here’s what I learned in it’s first chapter: 
+
+1. Python has high program portability meaning that you can run the program and copy code from one computer platform to another with paramount ease. Running code on #Linux and be easily transferred to Python on Windows or Mac and vice versa. 
+ 
+2. Python’s popularity is based on its minimalist approach to coding. It focuses more on code reusability for future programmers. Its built-in dynamic typing, object types, tools, third party library utilities lend it a simple design and syntax making it easy to use and learn. 
+
+3. Python can be used for all kinds of projects and programming such as numeric programming in NumPy, gaming, image processing, data mining, data visualization, Excel, AI, and more! 
+
+I am so excited to start diving into the technical aspects of Python’s polymorphic abilities.  Here is a great website that gamifies the learning process: sololearn.com 
+
+#continouslearning
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 ## #dailycoding 008 of 365 
 
 7/1/2020
