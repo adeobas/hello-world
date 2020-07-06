@@ -1,13 +1,79 @@
 ## How are you? Are you staying safe and healthy? 
 I hope you are well. Please continue to take care of yourself and your loved ones during the current outbreak and pandemic. 
 
-
 &nbsp;
 
 &nbsp;
 
 ## Welcome to my Data Analytics Portfolio! 
 Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. i'm excited to share what I have learned. Let's get to it! 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+## #dailycoding 012 of 365 
+   
+   7/5/2020
+   
+   Hey, how are ya? Are you staying safe and healthy? 
+Today I explored my #Microsoft Adventure Works data model I posted about a week ago. And I got some good insights on what worked and what I needed to improve. While I believe I did a good job querying the tables that I needed in my original model, I quickly saw a needed far less columns that I originally planned.  For example, I knew I had to go back into #MicrosoftSQLServer when my fiscal quarter column had too many fields when trying to compare total revenues for Reseller vs. Internet sales. I hopped back into #SSMS to see what I could do with the original query to combine the following two things: 
+
+1.	The original order dates 
+2.	Fiscal Quarter 
+
+   I figured that I’d use a common table expression (CTE), which is basically an extended subquery to pull the order dates I needed from performing a union on the Reseller and Internet Sales tables while also using a join to isolate the fiscal quarters in the date dimensions table. My method worked and now I’ll pull this query in Excel and perform some DAX calculations to get the month name, year, etc and see how that functions in my data model. Phew! Haha that was a nice puzzle to solve today. What would you have done differently? Leave your comments below! 😊 
+
+&nbsp;
+
+![CTEPicture](/images/LinkedIn_012.PNG)
+
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
+## #dailycoding 011 of 365
+
+7/4/2020
+
+    Today I started learning basic concepts in #Python on #Sololearn and it was so cool! I learned how to program using the “print” function and how to perform basic mathematical calculations like addition, subtraction, exponentiation, and division.The challenging part about today’s coding was learning the concept behind returning the quotient and remainder by using the floor division (//) and modulo operators (%) (also used in #TSQL). But I was able to break it down. 
+The two forward slashes, used in the floor division, return the quotient and the percent (modulo) operator returns the remainder in the formula. So for example by using the order of operations in 7%(5//2) you: 
+
+1.	Perform the floor division in parentheses
+2.	Round that number to the nearest integer (this is your quotient)
+3.	Divide the integer in the modulo portion by the quotient (you’ll return the remainder, if any)
+
+7%(5//2) 
+7%(2.5) 
+7%(3) the quotient is 3 
+7/3 the remainder is 1
+
+I played around with the print function and making my own quotient and remainder formulas with 0 returning as the remainder for most of them. Can’t wait to see what else I learn 😊 
+
+&nbsp;
+
+![PythonPicture](/images/LinkedIn_011.PNG)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
+## #dailycoding 010 of 365
+
+7/3/2020
+
+Today was a good day. I finished the eLearning Analyst course in Tableau and received my role #DataBadge. I am beyond excited with my achievement, but I know it’s only the beginning!! Now, its onwards and upwards to get my Tableau Desktop Specialist certification and continue on with learning what value I can add when solving problems with my data skills. Follow to the link to check out my current credential 😊 
+
+https://www.youracclaim.com/badges/e22a9380-dedd-499e-949d-058c7df406c9/linked_in_profile
 
 &nbsp;
 
