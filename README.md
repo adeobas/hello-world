@@ -18,8 +18,7 @@ Please feel free to take a look through some of the projects I've created to bui
    
    7/5/2020
    
-   Hey, how are ya? Are you staying safe and healthy? 
-Today I explored my #Microsoft Adventure Works data model I posted about a week ago. And I got some good insights on what worked and what I needed to improve. While I believe I did a good job querying the tables that I needed in my original model, I quickly saw a needed far less columns that I originally planned.  For example, I knew I had to go back into #MicrosoftSQLServer when my fiscal quarter column had too many fields when trying to compare total revenues for Reseller vs. Internet sales. I hopped back into #SSMS to see what I could do with the original query to combine the following two things: 
+Hey, how are ya? Are you staying safe and healthy? Today I explored my #Microsoft Adventure Works data model I posted about a week ago. And I got some good insights on what worked and what I needed to improve. While I believe I did a good job querying the tables that I needed in my original model, I quickly saw a needed far less columns that I originally planned.  For example, I knew I had to go back into #MicrosoftSQLServer when my fiscal quarter column had too many fields when trying to compare total revenues for Reseller vs. Internet sales. I hopped back into #SSMS to see what I could do with the original query to combine the following two things: 
 
 1.	The original order dates 
 2.	Fiscal Quarter 
@@ -42,7 +41,7 @@ Today I explored my #Microsoft Adventure Works data model I posted about a week 
 
 7/4/2020
 
-    Today I started learning basic concepts in #Python on #Sololearn and it was so cool! I learned how to program using the “print” function and how to perform basic mathematical calculations like addition, subtraction, exponentiation, and division.The challenging part about today’s coding was learning the concept behind returning the quotient and remainder by using the floor division (//) and modulo operators (%) (also used in #TSQL). But I was able to break it down. 
+Today I started learning basic concepts in #Python on #Sololearn and it was so cool! I learned how to program using the “print” function and how to perform basic mathematical calculations like addition, subtraction, exponentiation, and division.The challenging part about today’s coding was learning the concept behind returning the quotient and remainder by using the floor division (//) and modulo operators (%) (also used in #TSQL). But I was able to break it down. 
 The two forward slashes, used in the floor division, return the quotient and the percent (modulo) operator returns the remainder in the formula. So for example by using the order of operations in 7%(5//2) you: 
 
 1.	Perform the floor division in parentheses
