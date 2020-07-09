@@ -174,9 +174,9 @@ Let your curiosity about gleaning insight from a business problem or data set dr
 If you are still stuck and do not know where to begin, here are a few sites that can get you started on the do’s and don’ts:
 &nbsp;
 
-1.	   https://storybydata.com/dailycoding/ 
-2. 	https://towardsdatascience.com/
-3. 	https://www.linkedin.com/pulse/my-first-100daysofcode-jessica-greene/
+    1.	   https://storybydata.com/dailycoding/ 
+    2. 	   https://towardsdatascience.com/
+    3. 	   https://www.linkedin.com/pulse/my-first-100daysofcode-jessica-greene/
 
 &nbsp;
 &nbsp;
