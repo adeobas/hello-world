@@ -10,6 +10,46 @@ Please feel free to take a look through some of the projects I've created to bui
 
 &nbsp;
 
+
+&nbsp;
+
+&nbsp;
+## #dailycoding 013 of 365 
+
+7/6/2020
+
+Yesterday, I posted a query of a CTE, also known as a common table expression, to simplify my date table. For those of you not familiar with #TSQL, a CTE is essentially a query nested inside another query that allows you recall more data than a regular query would allow you, all in a simpler fashion. It similar to a Russian egg doll. There is the one big egg and lots of little eggs inside each one but be careful! While you can crack open endless Russian egg dolls, do not do that with CTEs or subqueries. They will become difficult to read and affect the performance of your queries and system.   
+After extracting the OrderDate and FiscalQuarter columns from #MicrosoftSQLServer, I copied and pasted the data into an #Excel worksheet, opened Power Pivot, and wrote some simple #DAX formulas to expand my date table. Many of the functions used in Excel translate to DAX. Each function is taking the OrderDate column and returning the date in a text or numerical format. The formulas I used are listed below.  
+
+   1.	Day of Week 
+    
+      a.	=FORMAT([OrderDate], “ddd”)   
+   
+   2.	Month Name 
+      
+      b.	=FORMAT([OrderDate], "mmm")
+   
+   3.	Month Number 
+      
+      c.	=MONTH([OrderDate])
+   
+   4.	Week Number 
+      
+      d.	=WEEKNUM([OrderDate], 1)
+
+And there you have it. Now, I can continue to explore the sales data based on my next step, customer segmentation by demographics, geography, behavior, and psychology. The last two are mor qualitative segments, but I will see what I can do to analyze some of their aspects. What DAX calculations have you used? Let me know in the comments! 
+
+![DAX1](/images/LinkedIn_013.PNG)
+&nbsp;
+
+![DAX2](/images/LinkedIn_013b.PNG)
+&nbsp;
+
+![DAX3](/images/LinkedIn_013c.PNG)
+&nbsp;
+
+![DAX4](/images/LinkedIn_013d.PNG)
+
 &nbsp;
 
 &nbsp;
