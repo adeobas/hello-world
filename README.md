@@ -2,17 +2,47 @@
 I hope you are well. Please continue to take care of yourself and your loved ones during the current outbreak and pandemic. 
 
 &nbsp;
-
-&nbsp;
-
 ## Welcome to my Data Analytics Portfolio! 
 Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. i'm excited to share what I have learned. Let's get to it! 
 
 &nbsp;
+## #dailycoding 015 of 365 
+
+7/8/2020
+
+Today I practiced visualizing highlight tables in #Tableau using the Sample SuperStore data set that comes with the program. I wanted to know the sum of sales per subcategory in all regions across the US. This is how I built the table: 
+
+   1.	Dragged “Sales” to “Text” on the Marks card 
+
+   2.	Then CTRL clicked on the “SUM(Sales)” while dragging it to “Color”
+
+   3.	Selected “Square” from the drop-down menu 
+
+   4.	Dragged Region to Columns and Sub-Category to Rows 
+
+   5.	Clicked “Edit Color” under “Color” on the Marks card, chose a color scheme (Blue-Teal is my favorite), and adjusted the distribution of the gradient to half of the total
+      range in sales. And voila! You can see that Chairs and Phones had the most Sales in the East and West Region while Fasteners performed poorly across all regions. This was
+      a simple viz, but powerful in giving a sound overview. What charts do you like building in Tableau? 
 
 
 &nbsp;
+![TABLEAU](/images/LinkedIn_015.PNG)
+&nbsp;
+&nbsp;
+&nbsp;
+## #dailycoding 014 of 365 
+7/7/2020
 
+Today I practiced writing #TSQL code to retrieve product inventory information. I used the COUNT function to aggregate the number of units per product subcategories.  Following this example by #ExcelisFun, I figured the following would add more value to my customer segmentation  
+1.	A pivot table by Number of Units by Country & Product 
+2.	A pivot table by Sum and Avg of Revenue by Month 
+3.	A slicer to filter this specific report by Year and Country 
+I will also try adding a few other slicers like age, income, occupation, education, and marital status along with some other grouping techniques to see what works best visually. 
+
+&nbsp;
+![TSQL](/images/LinkedIn_014.PNG)
+&nbsp;
+&nbsp;
 &nbsp;
 ## #dailycoding 013 of 365 
 
@@ -37,7 +67,7 @@ After extracting the OrderDate and FiscalQuarter columns from #MicrosoftSQLServe
       
       d.	=WEEKNUM([OrderDate], 1)
 
-And there you have it. Now, I can continue to explore the sales data based on my next step, customer segmentation by demographics, geography, behavior, and psychology. The last two are mor qualitative segments, but I will see what I can do to analyze some of their aspects. What DAX calculations have you used? Let me know in the comments! 
+And there you have it. Now, I can continue to explore the sales data based on my next step, customer segmentation by demographics, geography, behavior, and psychology. The last two are mor qualitative segments, but I will see what I can do to analyze some of their aspects. What DAX calculations have you used? 
 
 ![DAX1](/images/LinkedIn_013.PNG)
 &nbsp;
@@ -53,7 +83,6 @@ And there you have it. Now, I can continue to explore the sales data based on my
 &nbsp;
 
 &nbsp;
-
 ## #dailycoding 012 of 365 
    
    7/5/2020
@@ -68,15 +97,9 @@ Hey, how are ya? Are you staying safe and healthy? Today I explored my #Microsof
 &nbsp;
 
 ![CTEPicture](/images/LinkedIn_012.PNG)
-
-
 &nbsp;
-
 &nbsp;
-
 &nbsp;
-
-
 ## #dailycoding 011 of 365
 
 7/4/2020
@@ -100,12 +123,8 @@ I played around with the print function and making my own quotient and remainder
 ![PythonPicture](/images/LinkedIn_011.PNG)
 
 &nbsp;
-
 &nbsp;
-
 &nbsp;
-
-
 ## #dailycoding 010 of 365
 
 7/3/2020
@@ -115,9 +134,7 @@ Today was a good day. I finished the eLearning Analyst course in Tableau and rec
 https://www.youracclaim.com/badges/e22a9380-dedd-499e-949d-058c7df406c9/linked_in_profile
 
 &nbsp;
-
 &nbsp;
-
 &nbsp;
 ## #dailycoding 009 of 365
 
@@ -136,9 +153,7 @@ I am so excited to start diving into the technical aspects of Python’s polymor
 #continouslearning
 
 &nbsp;
-
 &nbsp;
-
 &nbsp;
 ## #dailycoding 008 of 365 
 
@@ -159,14 +174,12 @@ Let your curiosity about gleaning insight from a business problem or data set dr
 If you are still stuck and do not know where to begin, here are a few sites that can get you started on the do’s and don’ts:
 &nbsp;
 
-1.	 https://storybydata.com/dailycoding/ 
+1.	   https://storybydata.com/dailycoding/ 
 2. 	https://towardsdatascience.com/
 3. 	https://www.linkedin.com/pulse/my-first-100daysofcode-jessica-greene/
 
 &nbsp;
-
 &nbsp;
-
 &nbsp;
 ## #dailycoding 007 of 365 
 
@@ -182,9 +195,7 @@ I stumbled upon this video (https://youtu.be/8DFih8ccMV0) from the #GuyinaCube Y
 ![TimeIntelligenceCalculation](/images/LinkedIn_007.PNG)
 
 &nbsp;
-
 &nbsp;
-
 &nbsp;
 
 ## #dailycoding 006 of 365 
@@ -205,14 +216,9 @@ You can also follow my data journey here at https://github.com/adeobas/portfolio
 &nbsp;
 
 ![TableauPicture](/images/LinkedIn_006.PNG)
-
-
 &nbsp;
-
 &nbsp;
-
 &nbsp;
-
 ## #dailycoding 005 of 365
 
 6/28/20
@@ -239,14 +245,9 @@ I highly recommend taking the #elearning courses on Tableau. There is a 90-day f
 &nbsp;
 
 ![TableauPicture](/images/LinkedIn_005.PNG)
-
-
 &nbsp;
-
 &nbsp;
-
 &nbsp;
-
 ## #dailycoding 004 of 365
 
 6/27/20
@@ -264,18 +265,14 @@ Today, I cracked open #Microsoft’s The Definitive Guide to DAX by Marco Russo 
 
 &nbsp;
 
-
 3. They both have similar structures and features when it comes to executing subqueries! The main difference, depending on how you are performing the subquery is that DAX uses a function called FILTER instead of the WHERE clause to retrieve columns. 
 
 &nbsp;
  
-
 Stay safe and healthy! 
-
 &nbsp;
-
 &nbsp;
-
+&nbsp;
 ## #dailycoding 003 of 365       
 
 6/26/20
@@ -292,22 +289,14 @@ Using data from the John Hopkins #GitHub repository, I created a visualization i
 
 &nbsp;
 
-
 ![Rona Picture 000301](/images/LinkedIn_AprilCovidDash.PNG)
 
-
-
 &nbsp;
-
 
 ![Rona Picture 000301](/images/LinkedIn_AprilCovid19.PNG)
-
-
-
 &nbsp;
-
 &nbsp;
-
+&nbsp;
 ## #dailycoding 002 of 365         
 
 6/25/20
@@ -319,13 +308,8 @@ Today my #dailycoding challenge was to join the UNION I created in yesterday’s
 Because I was trying to match dimensions to orderdates I already pulled, I opted for the subquery. Writing a joining a subquery in the from clause would give me a direct route to matching my fields. 
 
 &nbsp;
-
-
 This query can be broken down into 3 parts as follows: 
 &nbsp;
-
-
-
 SELECT query: Selecting all columns I would like to be visible in the results from the date dimensions table. 
 
 ![Adventure Works Pictures](/images/002_select.PNG)
@@ -340,7 +324,6 @@ SUBQUERY: The highlighted portion is the actual subquery sitting within the FROM
 
 ORDER BY:  Then I ordered the columns in the same order as the SELECT clause for a nice finishing touch. 
  
-
 ![Adventure Works Pictures](/images/002_orderby.PNG)
 
 &nbsp;
@@ -351,10 +334,8 @@ ORDER BY:  Then I ordered the columns in the same order as the SELECT clause for
 The one thing I couldn’t figure out was how to insert the orderdate columns from both FactResellerSales and the FactInternetSales in the SELECT portion of my query without returning unnecessary records. I know I can relate the orderdate column in the data model when needed in #PowerBI, #Excel, and #Tableau, but if anyone has a solution on how I can do it in #SQLServer that would be so cool! 
 
 &nbsp;
-
 &nbsp;
-
-   
+&nbsp;
 ## #dailycoding 001 of 365                                                                                                                             
 
 6/24/2020
@@ -379,7 +360,6 @@ I’m particularly excited about this project because I got to practice my UNION
 
 
 It is a work in progress, but I would love to hear your constructive and actionable feedback on what I could add or improve. Thank you! 
-
 
 
 ![Adventure Works Pictures](/images/LinkedIn_AdventureWorks.PNG)
