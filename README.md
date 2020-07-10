@@ -3,7 +3,7 @@ I hope you are well. Please continue to take care of yourself and your loved one
 
 &nbsp;
 ## Welcome to my Data Analytics Portfolio! 
-Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. i'm excited to share what I have learned. Let's get to it! 
+Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. I am excited to share what I am learning. Let's get to it! 
 
 &nbsp;
 ## #dailycoding 016 of 365
@@ -25,7 +25,9 @@ I was successfully able to show the top 10 states, but I must fix a bug in the b
 &nbsp;
 ![TABLEAU](/images/LinkedIn_016b.PNG)
 &nbsp;
+![TABLEAU](/images/LinkedIn_016c.PNG)
 
+&nbsp;
 ## #dailycoding 015 of 365 
 
 7/8/2020
