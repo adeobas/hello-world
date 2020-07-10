@@ -6,6 +6,26 @@ I hope you are well. Please continue to take care of yourself and your loved one
 Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. i'm excited to share what I have learned. Let's get to it! 
 
 &nbsp;
+## #dailycoding 016 of 365
+
+7/9/2020
+
+Today I worked on map visualizing skills in #Tableau. The map I created shows each state’s profit by color and total sales by text and created a parameter to show the top 10 and bottom 10 states by profit. Here are the steps I took: 
+
+1.	Dragged Longitude and Latitude to Columns and Rows, respectively 
+   2.	Dragged State to Detail 
+   3.	Dragged Profit to Color and Sales to text
+   4.	Then I created a Top10, Bottom 10, and a Combined set to use as filters    
+   5.	Then I created a Top/Bottom Parameter to use in a calculated field 
+   6.	I used a CASE statement in the calculated field to set the parameter. 
+
+I was successfully able to show the top 10 states, but I must fix a bug in the bottom 10. It does the opposite of the Top filter. How do you use filters in Tableau? Leave your thoughts in the comments. 
+
+![TABLEAU](/images/LinkedIn_016.PNG)
+&nbsp;
+![TABLEAU](/images/LinkedIn_016b.PNG)
+&nbsp;
+
 ## #dailycoding 015 of 365 
 
 7/8/2020
