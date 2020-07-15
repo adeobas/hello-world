@@ -6,6 +6,105 @@ I hope you are well. Please continue to take care of yourself and your loved one
 Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. I am excited to share what I am learning. Let's get to it! 
 
 &nbsp;
+## #dailycoding 021 of 365 
+
+7/14/2020
+
+One thing that is especially important to note when writing TSQL queries and building a data model is 1. Whether the columns you want to relate have data types that are compatible and if they are 2. Then testing to see if joining those two data types will make sense for your data.  For example, I am building a data model to analyze customer segment and product information. 
+
+I saw a cool video on formatting with #ExcelIsFun and I thought it would be interesting to see if my data could tell me how much I had in inventory by country. As I was experimenting with my queries, I realized that Just because my product Key and my geography Key were both int data types, did not mean that using those two columns to join my tables would produce meaningful results. It did the exact opposite; it linked the incorrect sales territories to the Product Inventory. 
+
+A better way to keep eye on the inventory stock would be to first see what orders went out via the internet and sales tables and then perform date calculations between the order date column the date table and the movement date in the product inventory table.  Therefore, it is important to take the time to explore the data that you have and tweak your data model so that you build an analysis based on accurate results. 
+
+TLDR; One data technique does not fit all 
+
+![EXCEL](/images/LinkedIn_021.PNG)
+
+&nbsp;
+&nbsp;
+
+
+## #dailycoding 020 of 365 
+
+7/13/2020
+
+How are you? Are you staying safe and healthy? 
+In preparation for the #TableauSpecialistCertification, I practiced using trendlines, and more specifically reference lines,  to highlight profit ranges across product categories. I found that the overall average profits for each Category across all states were as follows: 
+
+ALL STATES 
+   1.	   Avg Profit for Furniture: $4,613 
+   2.	   Avg Profit for Office Supplies: $13,610   
+   3.	   Avg Profit for Technology: $36, 364 
+
+After looking at the least profitable states on my geographic map, I created a state filter to analyze what on Earth was going on with Texas and found that the state was underperforming in all categories as follows: 
+
+TEXAS 
+  1.     Avg Profit for Furniture: -$2,609 
+  2.  	 Avg Profit for Office Supplies: -$2,065
+  3. 	   Avg Profit for Technology: $823 
+
+The next step for me is to figure out whether it would be best to do a drill down into the least profitable products using a filter actions on the dashboard or a line of detail (LOD) calculation. How would you go about exposing more granularity in this view? Leave your thoughts in the comments! All views all suggestions are welcome!
+
+
+![TABLEAU](/images/LinkedIn_020.PNG)
+
+
+&nbsp;
+
+## #dailycoding 019 of 365
+
+7/12/2020
+
+Today, I learned about type conversions in #Python. A “int” type conversion will convert a string into an integer, a “float” will convert an integer into decimal format, and a “str” type conversion will turn an integer into a string data type. 
+
+   1.	int – int(“2”) = 2 
+
+   2.	float(12) = 12.0 
+
+   3.	str(1234)  = ‘1234’ 
+
+After getting familiar with the types, I decided to do a fun experiment with some of the previous concepts I learned on #SoloLearn such as finding the quotient and the remainder using a type conversion. I received a syntax error the first couple of times, but after utilizing parentheses, I created the same result I would have with regular integers. Got any cool tricks that you like doing in Python? Leave your comments down below. 
+
+![PYTHON](/images/LinkedIn_019.PNG)
+
+&nbsp;
+&nbsp;
+
+## #dailycoding 018 of 365
+
+7/11/2020
+
+Today, I continued working on learning basic concepts in #Python on #Sololearn. This session was super cool because I got to translate my concatenation and string knowledge from #TSQL. Like TSQL, one can concatenate strings together using the ‘+’ operator. I also found multiplying strings by integers super delightful. Here are a few exercises I did: 
+
+    1.	Newlines 
+           a.	\n – will create a new line of code once run the interpreter 
+    2.	String Multiplication 
+           a.	“7” * 3 will multiply 7 as a string 3 times 
+    3.	Concatenation 
+           a.	“Spam” + ‘eggs’ 
+
+Simple, but fun. 
+
+![PYTHON](/images/LinkedIn_018.PNG)
+
+&nbsp;
+&nbsp;
+## #dailycoding 017 of 365
+
+7/10/2020
+
+Today I want to share a few resources that may make data exploration in Excel easier.
+
+1. Data Analysis and Business Modeling for Microsoft Excel 2016
+
+2. ExcelisFun on YouTube
+
+Both are great go-tos when I am trying to picture how I want to slice and dice data to gain the best insights
+
+
+&nbsp;
+&nbsp;
+
 ## #dailycoding 016 of 365
 
 7/9/2020
