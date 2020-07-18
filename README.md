@@ -488,6 +488,7 @@ It is a work in progress, but I would love to hear your constructive and actiona
 &nbsp;
 &nbsp;
 &nbsp;
+
 ## #dailycoding 000 of 365
 
 6/23/2020
