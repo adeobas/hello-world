@@ -6,6 +6,129 @@ I hope you are well. Please continue to take care of yourself and your loved one
 Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. I am excited to share what I am learning. Let's get to it! 
 
 &nbsp;
+&nbsp;
+
+## #dailycoding 026 of 365 
+
+7/19/2020
+
+## #dailycoding 026 of 365 
+
+Today I finished #Python’s basic concepts on SoloLearn and had fun creating variables and in place operators. A variable allows you to store a value by assigning it to a name, which can be used to refer to the value later on in the program. An in-place operator allows you to write code, such as formulas and their operators, more concisely. Check out the examples below: 
+
+Variable 
+   1.	x = 2 
+        
+    a.	print(x)
+         
+    b.	2  
+
+In-Place Operators 
+   1.	 x = 2 
+   
+    a.	x = x+3 > x+=3 (this is the more concise form of writing this kind of code in Python) 
+   
+    b.	2+3
+       
+    c.	5 
+
+Later, I took a quiz that put both elements together. Here’s an example of a problem I had to solve: 
+   1.	What is the output of this code? 
+      
+    a.	spam = “7”
+     
+    b.	spam= spam + “0”
+     
+    c.	eggs = int(spam) + 3 
+    
+    d.	print(float(eggs))
+
+      ANSWER: 73.0 
+
+&nbsp;
+Notice that spam is assigned a string variable of “7”. When “7” is added to “0”, spam becomes a string value of “70”. Note that if you tried to add “70” to an integer, your code would fail because the two data types are not the same.
+
+      a.	Spam = “7” 
+      b.	Spam = “7” + “0” = “70”
+      
+Inserting “70” into spam in ‘c’ turns “70” into a real number. Now you can add 70 + 3 to get 73 as the placeholder for eggs. 
+
+      c.	Eggs= int(“70”)+3 = 70 + 3 = 73
+
+And finally inserting 73 into the float function will turn 73 into a decimal. The answer is 73.0 
+
+      d.	Print(float(73)) = 73.0 
+
+
+
+![Python](/images/LinkedIn_026.PNG)
+
+&nbsp;
+&nbsp;
+
+
+
+
+&nbsp;
+## #dailycoding 025 of 365 
+
+7/18/2020
+
+Today I drilldown into my data model and found the top selling bike models across genders. There was one main difference between women and men for internet sales. It seems that women really liked the Road-550-W and men enjoyed the Road-350-W model lines. I will perform time series analysis measuring sales seasonality. Do you have any suggestions on how I could continue to slice my data? Leave your thoughts in the comments below. 
+
+Follow my Continuous Learning Portfolio on #GitHub: adeobas.github.io/portfolio 
+
+
+![EXCEL](/images/LinkedIn_025.PNG)
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## #dailycoding 024 of 365 
+
+7/17/2020
+
+
+I continued my analysis of my #AdventureWorks data model in #Excel and found some interesting insights on what products are driving the most internet sales across gender. While sales were split almost evening across subcategories between men and women, women outspent men by .91%, a monetary value of $268,560.13. My financial analysis is proving that road bikes are the most profitable product In the AdventureWorks database. Now time to go back and see which road bike models are popular between the sexes. 
+
+
+![EXCEL](/images/LinkedIn_024.PNG)
+
+&nbsp;
+&nbsp;
+
+
+
+
+&nbsp;
+## #dailycoding 023 of 365 
+
+7/16/2020
+
+
+Today I tested my #AdventureWorks data model and started exploring the sales data in #Excel. I focused on building a high-level view of the company’s revenue by product subcategory and found that 73% of sales were accumulated through the reseller channels while only 27% from internet sales. Road bikes and fames were amongst the highest grossing items while tires and tubes were amongst the lowest. My next step will be to drill down into the two different road bikes to see which product lines are the most profitable. After that, I will explore customer demographics. 
+
+
+![EXCEL](/images/LinkedIn_023.PNG)
+
+&nbsp;
+&nbsp;
+
+
+&nbsp;
+## #dailycoding 022 of 365 
+
+7/15/2020
+
+Today I reviewed working with #SQLServer data types and more specifically the CAST function. This function comes in handy when you want to convert a value from one data type to another that will return a scalar, also known as single value, result. Using CAST helped me turn ‘2010-12-29 00:00:00.000’ into ‘2010-12-29’. This helps to optimize my query by turning the datetime into a date data type.
+
+![EXCEL](/images/LinkedIn_022.PNG)
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 ## #dailycoding 021 of 365 
 
 7/14/2020
