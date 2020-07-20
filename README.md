@@ -12,8 +12,6 @@ Please feel free to take a look through some of the projects I've created to bui
 
 7/19/2020
 
-## #dailycoding 026 of 365 
-
 Today I finished #Python’s basic concepts on SoloLearn and had fun creating variables and in place operators. A variable allows you to store a value by assigning it to a name, which can be used to refer to the value later on in the program. An in-place operator allows you to write code, such as formulas and their operators, more concisely. Check out the examples below: 
 
 Variable 
