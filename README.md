@@ -7,6 +7,41 @@ Please feel free to take a look through some of the projects I've created to bui
 
 &nbsp;
 &nbsp;
+## #dailycoding 028 of 365 
+
+Today I reviewed continuous and discrete date fields in #Tableau. The simplest way to remember the difference, is to note that continuous fields can change values and are measured on a continuous range of values while discrete fields measure unique values that do not easily fall on a range. For instance, when you are sick, your temperature rises by so many degrees at a time. It may start at normal body temperature of 98.6, then 98.79, 99.0, and finally a full-blown fever at 102; 98.6 – 102 is a continuous range. Now say those temperatures where categorized by patient name. 
+
+The name is a discrete value because you cannot measure Kevin, Pat, or Nancy on a continuous range. Each name is unique. The same thing goes for sales and orderdate months. Looking at the picture below, the y-axis has a continuous range of sales because business can make an infinite amount of money. The x-axis aggregates each year’s sales into months, making each bar in the chart unique, therefore qualifying as a discrete field. 
+
+
+TLDR; continuous fields – think infinity; a continuous range of values 
+	   discrete – think unique; Jan, Feb, & Mar are all independent fields 
+      
+&nbsp;
+![Tableau](/images/LinkedIn_028.PNG)
+
+&nbsp;
+&nbsp;
+## #dailycoding 027 of 365 
+
+7/20/2020
+
+Today I practiced setting context filters in #Tableau. Context filters are super handy when you want to understand what data categories are doing well and where they are not doing well without querying a large amount of data. These filters also ensure that you are filtering the correct data. For example, I did an exercise where I wanted to find the bottom 10 selling products across all product categories. With Category and Product name in the rows and Sum(Sales) in the columns, I got a full view of all the data. Using the Product Name dimension, I set a Top N filter (in this case Bottom N) to filter the entire data set. Then I added Category to context to get the bottom products across all three categories. Here are the least profitable products in each category: 
+
+    1.	Technology: PNY Rapid USB Car Charger
+             a.	Sales: $9.59 
+
+    2.	Furniture: Nu-Dell EZ-Mount Plastic Wall Frames 
+             a.	Sales: $19.70 
+
+    3.	Office Supplies: Eureka Disposable Bags for Sanitaire Vibra Groomer | Upright Vac 
+             a.	Sales: $1.624
+             
+&nbsp;             
+![Tableau](/images/LinkedIn_027.PNG)
+
+&nbsp;
+&nbsp;
 
 ## #dailycoding 026 of 365 
 
