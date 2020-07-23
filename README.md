@@ -11,13 +11,10 @@ Please feel free to take a look through some of the projects I've created to bui
 
 7/22/2020
 
-Today I reviewed continuous and discrete date fields in #Tableau. The simplest way to remember the difference, is to note that continuous fields can change values and are measured on a continuous range of values while discrete fields measure unique values that do not easily fall on a range. For instance, when you are sick, your temperature rises by so many degrees at a time. It may start at normal body temperature of 98.6, then 98.79, 99.0, and finally a full-blown fever at 102; 98.6 – 102 is a continuous range. Now say those temperatures where categorized by patient name. 
+Today I returned to my sales and profit analysis in #Tableau and practiced building scatter plots. I compared two measures, profit and discount, to see if there was a correlation between the two measures in each product category and state.
 
-The name is a discrete value because you cannot measure Kevin, Pat, or Nancy on a continuous range. Each name is unique. The same thing goes for sales and orderdate months. Looking at the picture below, the y-axis has a continuous range of sales because business can make an infinite amount of money. The x-axis aggregates each year’s sales into months, making each bar in the chart unique, therefore qualifying as a discrete field. 
+There was no direct correlation, but I found a few clusters and outliers where rolling back discounts could improve profits. Out of all the states, Texas had the lowest profit and 4th highest discount at 40%. I am also curious to see what selling tactics I could recommend for the states that border the $0 profit line. I will experiment with another technique kindly suggested by a LinkedIn colleague as well.
 
-
-TLDR; continuous fields – think infinity; a continuous range of values 
-      discrete – think unique; Jan, Feb, & Mar are all independent fields 
       
 &nbsp;
 ![Tableau](/images/LinkedIn_029.PNG)
