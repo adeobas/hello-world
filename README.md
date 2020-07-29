@@ -5,6 +5,91 @@ I hope you are well. Please continue to take care of yourself and your loved one
 ## Welcome to my Data Analytics Portfolio! 
 Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. I am excited to share what I am learning. Let's get to it! 
 
+
+
+&nbsp;
+&nbsp;
+## #dailycoding 035 of 365 
+
+7/28/2020
+
+One thing that I have been struggling with in #Tableau is creating sets, but with a little help from Lukas Halim’s certification prep course on Udemy, I have a better understanding of how to create one that makes sense in the view.
+
+A set is a filter that can parse out the top and bottom items in a dimension or measure. My main confusion main was the placement of the actual set after creating it. I learned that a set can be placed in the filters box (what I am more accustomed to) AND shelf (column/row) area. One main thing to remember is that if you want to compare top and bottom items in your data at the same time, you have to create two separate sets; one for top and one for bottom. The former can be accomplished using a combined set. Having clarification on this topic will help with building parameters. 
+
+
+      
+&nbsp;
+![Tableau](/images/LinkedIn_035.PNG)
+
+
+&nbsp;
+&nbsp;
+## #dailycoding 034 of 365 
+
+7/27/2020
+
+Today I returned to my sales and profit analysis in #Tableau and practiced building scatter plots. I compared two measures, profit and discount, to see if there was a correlation between the two measures in each product category and state.
+
+There was no direct correlation, but I found a few clusters and outliers where rolling back discounts could improve profits. Out of all the states, Texas had the lowest profit and 4th highest discount at 40%. I am also curious to see what selling tactics I could recommend for the states that border the $0 profit line. I will experiment with another technique kindly suggested by a LinkedIn colleague as well.
+
+
+&nbsp;
+&nbsp;
+## #dailycoding 033 of 365 
+
+7/26/2020
+
+
+Today I worked on manually creating bins and histograms in #Tableau to find the number of units sold per shipment across office supplies, technology, and furniture. I found that the most common bin size across all operating years was in the two and three bins for all three categories. I’ve found some interesting information with the super store data set, but now I feel it’s time to see what story I can communicate from my findings and what creative recommendation I could make to help make the business more profits. 
+
+
+      
+&nbsp;
+![Tableau](/images/LinkedIn_033.PNG)
+
+
+&nbsp;
+&nbsp;
+## #dailycoding 032 of 365 
+
+7/25/2020
+
+Today, I worked on creating quick table calculations with #Tabelau’s complimentary dataset. For this view, I set the table to show the percent of total of each category and sub-category by region. feel that this view shows a more precise picture of where Items are not performing well; the bulk being in office supplies, which is interesting because office supplies are sold in larger quantities than furniture or technology. I am still getting the hang of table calculations, but I am glad that I am exploring their use. Exploring data is truly endless haha 
+
+      
+&nbsp;
+![Tableau](/images/LinkedIn_032.PNG)
+
+
+&nbsp;
+&nbsp;
+## #dailycoding 031 of 365 
+
+7/24/2020
+
+Today I reviewed constructing stacked bar charts in #Tableau. Stacked bar charts are helpful for showing comparisons between categories of data as parts of a whole, emphasis on the part. As you can see in the current view, office supplies make up the bulk of sales selling an average of 4,000-7000 units across all years while furniture and technology sell an average of 1000-2000 units. 
+
+      
+&nbsp;
+![Tableau](/images/LinkedIn_031.PNG)
+
+
+&nbsp;
+&nbsp;
+## #dailycoding 030 of 365 
+
+7/23/2020
+
+Would you look at the time? Today marks 30 days that I started this challenge and I have enjoyed it so far. I am learning a lot about what I can do differently when analyzing data and just the overall coding process in general. Thanks for following the journey, let us continue exploring. 
+
+Today, I worked on developing a broad overview of Texas’ sales and discounts over time using the combined axis chart technique. I did not glean any meaningful data from this current view, aside from September 2016 being the best point in time for sales at $19,135 and an average discount of 42%, mostly from technology sales.  Next task will be to compare high profit subcategories by sales. Thank you @Jarod for the suggestion on how to slice and dice my data! 
+
+      
+&nbsp;
+![Tableau](/images/LinkedIn_030.PNG)
+
+
 &nbsp;
 &nbsp;
 ## #dailycoding 029 of 365 
