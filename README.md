@@ -9,6 +9,53 @@ Please feel free to take a look through some of the projects I've created to bui
 
 &nbsp;
 &nbsp;
+## #dailycoding 039 of 365 
+
+08/03/2020
+
+Today, I learned about the order of operations in #DAX; think PEMDAS, but with a few changes. Below is the order and corresponding symbol: 
+
+     1.       Parenthesis ----> ()
+     2.	  Artithmetic  ----> +, -, *, /
+     3.	  Comparison ---->  =, <>, > , >=, <, <= 
+     4.	  Text Concatenation ---->  &
+     5.	  Logical ----> && (AND), ||(OR)
+
+So, for example if I wanted to return regions with profits more than or equal to $100 and less than or equal to $500 in a dataset using DAX, it would look something like this: 
+
+      ([Country Region] = ‘USA’, Profit >= 100) &&([CountryRegion] = ‘USA’, Profit <= 500)
+
+The [CountryRegion] would be evaluated first in both parentheses, following with both Profits, and finally the Logical operator connecting both statements together. 
+
+
+&nbsp;
+&nbsp;
+## #dailycoding 038 of 365 
+
+7/31/2020
+
+My Internet was out today, so I picked up The Definitive Guide to DAX and reviewed #DAX theory. I love all reviewing DAX. I find that certain concepts jump out more and make more sense the second time around. For example, while I understood, that DAX and SQL were similar in actual coding structure the first time around, it was a second read that helped me digest that DAX is similar to a table calculation in SQL and #tableaudesktop. Review days are fun! 
+
+
+&nbsp;
+&nbsp;
+## #dailycoding 037 of 365 
+
+7/30/2020
+
+Today I reviewed creating parameters in #Tableau for via Lucas Halim’s certification course on #Udemy. His explanation gave me a deeper understanding of a calculated field’s purpose within a parameter; a calculated field helps to filter out values in the view. This new understanding will help me with filtering out values in future geographic maps (I love using parameters for these views!) 
+
+&nbsp;
+&nbsp;
+## #dailycoding 036 of 365 
+
+7/29/2020
+
+Here is a cool article I found on #TowardsDataScience explaining different visualization tools via #Python libraries. Give it a read! https://bit.ly/2P9KAJG
+
+
+&nbsp;
+&nbsp;
 ## #dailycoding 035 of 365 
 
 7/28/2020
