@@ -6,6 +6,221 @@ I hope you are well. Please continue to take care of yourself and your loved one
 Please feel free to take a look through some of the projects I've created to build my expertise and skill in advanced Microsoft Excel, Transact-SQL (TSQL), Tableau, and Power BI. I am excited to share what I am learning. Let's get to it! 
 
 
+## #dailycoding 053 of 365 
+
+8/19/2020
+
+Today I used a new method to create relationships for relationships without having to look at the #datamodel in #PowerQuery. I’m a visual learner, so this method really tested my patience knowledge about linking tables to one another I navigated to the Data tab, hovered over the ‘Data Tools’ section, and clicked ‘Relationships’. I related both the ‘RevenueTable’ and ‘SalesRepLookupTable’ via the Sales Rep Column, creating a one-to-many relationship. Thank you #ExcelisFun for explaining this method. 
+
+![Relationships](/images/LinkedIn_053.png)
+
+&nbsp;
+&nbsp;
+
+## #dailycoding 052 of 365 
+
+8/18/2020
+
+Today I worked on some #pivottable exercises using an #ExcelisFun workbook. I was particularly proud of the cell phone data exercise because I created one table detailing the count and percentage of phones purchased using =COUNTIFS($A$4:$A$562, C7), and =ROUND(D7/SUM($D$7:$D$13),2), respectively. Then I recreated the same information with a pivot table. I am happy to see that I can use formulas more dynamically. 
+
+![MixedCellReferences](/images/LinkedIn_052.png)
+
+&nbsp;
+&nbsp;
+
+## #dailycoding 051 of 365 
+8/17/20
+Today I reviewed Pivot Table concepts in #Excel. Something finally clicked with how to format raw data and dynamic tables for pivot table use. I realized that using the IF function to create a “helper column” and how that could help me when building tables. I’m more accustomed to extracting information from dates and strings in #PowerQuery using #DAX, so this was a nice connection to make and I will add technique to my data analysis tool set when I clean data sets. 
+
+&nbsp;
+&nbsp;
+
+
+## #dailycoding 050 of 365 
+
+8/15/20 
+
+Today I worked on evaluating multiple criteria using MINIFS and MAXIFS. Both functions have been around in #Office365 and #Excel 2016 for about a year or so and are similar to the other IFS functions in that they allow input of multiple criteria. #ExcelIsFun had a great exercise that challenged me to find the minimum and maximum seconds each worker used on the assembly line, but when I got to my workbook, I saw that I didn’t have the option to use MINIFS or MAXIFS. I used my problem solving skills and headed on over to #StackoverFlow to uncover alternatives. I found a solution using MINIFS, but of a different variation. By working from the innermost to the outermost function, I enclosed an IF statement within the MIN function. The formula evaluates positions 1-10 and returns either all the values that relate to each position or nothing at all. Here's the breakdown:
+
+                                                                                                        
+“If the person’s number is 1, then bring back all their times, but if the worker’s assembly number is NOT 1, bring back nothing”. 
+
+    1.     =MIN(IF(AssemblyTimes[Post]=D8,(AssemblyTimes[Seconds]),""))
+
+    2.     =MIN(IF(D8, {7.8, 9.8, 8.8, 7.9})
+
+    3.     =MIN(7.8, 9.8, 8.8, 7.9)
+
+    4.     = 7.8
+
+![MixedCellReferences](/images/LinkedIn_050.png)
+
+
+
+
+&nbsp;
+&nbsp;
+
+
+## #dailycoding 049 of 365 
+
+8/13/2020
+
+Hey fellow data analysts! We all know that data is dirty, but I think many beginning data analysts find data cleaning a difficult concept to practice when learning because usually we’re learning with clean data sets. I happened to be on #Reddit at the right place and time and found an amazing blog called Foresight BI based in Lagos, Nigeria. Ahmed Oyelowo wrote a fantastic article called Dirty Data Samples – Get Your Hands Dirty Cleaning Data. Oyelowo’s article has 8 simply exercises to help you get a grasp on the concept. I’m also so happy to find that this source is from #Nigeria. I am happy to see that my home country is making some progress in modernizing business processes  
+
+Did you try it out? Let me know in the comments! 
+
+
+
+&nbsp;
+&nbsp;
+
+## #dailycoding 048 of 365 
+
+8/12/2020
+
+Today I learned how to use mixed cell references in #Excel to cover a large ground when inputting formulas; thank you ExcelisFun. Using this method will allow you to save so much time writing one formula that can be applied to many cells. There are 3 types of cell references, relative, mixed, and absolute. Mixed cell references allow you to lock either a specific column or a specific row. 
+
+     1. B5 – this is a relative reference. This can change to C5, D7, and so on 
+
+     2. B$5 – this is a mixed reference. Remember that a dollar sign before the row number will allow you to switch columns but not rows 
+
+     3. $B15 – this is also a mixed reference. Putting a dollar sign before the column letter will keep the column locked allowing the row to move. 
+
+     4. $B$15 – this is an absolute reference. It ain’t goin’ no where! 
+
+If you look down in the example, you can see how B$5 changes to C$5, D$5 and E$5; changing columns. And how $B15 changes to $B16, $B17, $B18, etc; changing rows 
+
+*The referenced assumption table only works if it has the same orientation as the listed expenses in the revenue table. 
+
+![MixedCellReferences](/images/LinkedIn_048.png)
+&nbsp;
+&nbsp;
+
+
+## #dailycoding 047 of 365 
+
+8/11/2020
+
+Today I reviewed a #Tableau practice test from Lucas Halim’s Tableau certification prep course. I passed the first exam but got some questions wrong. Some questions I read through too quickly and others were questions that I needed so spend more time on. For example, always remember that Tableau will create null values when your union fields do not have matching field names! It will not automatically merge the fields. 
+
+
+&nbsp;
+&nbsp;
+
+## #dailycoding 046 of 365 
+
+8/10/2020
+
+Today I reviewed how to use dynamic ranges for VLOOKUPS in tables. The main difference using VLOOKUPS with is method is that, depending on your settings, when you add more rows or columns to a table your values will automatically update within the table. Use this technique when you expect (or perhaps not expecting) your boss to email additional data to input after you’ve spent your day building your masterpiece. Just be careful. Tables can be somewhat finnicky and spill over 
+(le sigh). A cool trick that I learned to keep your workflow smooth is to change your table settings so that rows and columns will appear as you add new data without having to press the TAB key at the end of the table on the last cell to create a new row. Here are the steps: 
+
+      1.	Go to ‘File’  
+      2.	Select ‘Options’ from the list 
+      3.    Go to ‘Proofing’
+      4.	Select the ‘Autoformat As You Type’ tab
+      5.	Check ‘Apply As You Work’ 
+
+This should allow you to add rows and columns on the fly. A big thank you to #ExcelIsFun on #Youtube for teaching me this cool trick. 
+
+&nbsp;
+&nbsp;
+
+## #dailycoding 045 of 365
+
+8/9/2020
+
+Today I reviewed how table expressions are evaluated in Power Query using DAX. It’s similar to SQL in that you’re looking at the whole table and then whittling out the columns that you don’t need for your analysis. Instead of following a logical procedure (e.g. starting at the FROM clause) DAX starts evaluating its queries from the innermost function and works its way out to the outermost expression until it retrieves the needed value. I’m still wrapping my head around the concept! 
+
+#puttingthisgymmembershiptouse #continuouslearning 
+
+&nbsp;
+&nbsp;
+
+## #dailycoding 044 of 365 
+
+8/8/2020
+
+Today I did some VLOOKUP exercises with #ExcelisFun. I really like his #YouTube channel because he includes homework in his workbooks. He also does a great job explaining each concept. I’m particularly happy about this exercise because I learned how truly varied #Excel can be when creating formulas. I also learned that I have room for improvement in how I use logical and informational functions together. For example, in homework three, I was tasked with using IF and VLOOKUP together to create a formula that would lookup the price of a boomerang. The first time I attempted it, I nested VLOOKUPS within the IF function. I got the correct result, but my formula looked confusing after I checked my answer against the workbook’s. 
+
+     My Formula: 
+     
+         1. =IF(VLOOKUP(A13, $A$5:$C$10, 3, FALSE), VLOOKUP(A13, $A$5:$C$10, 3, FALSE)*B13, "")
+
+     Workbook’s Formulas: 
+     
+       1. =IF(ISNUMBER(B13),VLOOKUP(A13,$A$5:$C$10,3,0),"")
+       
+       2. =IF(ISBLANK(B13),"",VLOOKUP(A13,$A$5:$C$10,3,0))
+       
+       3. =IFNA(VLOOKUP(A13,$A$5:$C$10,3,0),"")
+
+I wrote one big formula using the items purchased column instead of checking the data type in the quantity column which would have helped to simplify my work. 
+
+![VLOOKUP](/images/LinkedIn_044.png)
+
+
+&nbsp;
+&nbsp;
+
+## #dailycoding 043 of 365 
+
+8/7/2020
+
+Today I reviewed VLOOKUP concepts in #MicrosoftExcel. VLOOKUPs are very useful when you are working with large data sets and need to retrieve a value for a specific product or other dimension quickly. This function helps you dodge nested Ifs and creates a great approach to getting an exact or approximate match to your calculations. It is important to note that it only reads from left to right. I learned this the hard way when trying to use VLOOKUP to retrieve dimension information from the raw data; and INDEX/MATCH combination was much better suited for the information I needed. 
+
+
+
+&nbsp;
+&nbsp;
+
+
+## #dailycoding 042 of 365 
+
+8/6/2020
+
+Today I learned about relational functions in #DAX. They’re useful for when you want to reference values within related columns or tables. This is handy when you want to replace values for a certain group of products, but those products don’t exist in the table that you’re working in. The Definitive Guide to Dax provided this example: 
+
+     Sales[AdjustedCost] = 
+        IF ( 
+           RELATED ( 'Product Category'[Category] ) = "Cell Phone", Sales[UnitCost] * 0.95, Sales[UnitCost] 
+           ) 
+
+This code is looking to adjust the cost of the cell phone in the Sales table by 95% of the unit cost. If the RELATED function finds a match, it will replace it with the new value. If it doesn’t, the unit cost for the category will stay the same. 
+
+&nbsp;
+&nbsp;
+
+## #dailycoding 041 of 365
+
+8/5/2020
+
+Today I learned about logical functions in #DAX. Logical functions are used when you want to test whether a certain condition exists. For example, you can use a logical function to categorize how many green, red, or blue extra-large t-shirts are in your data set using “IF” or “SWITCH”. Doing this can help you later when using aggregation functions like “SUM” or “AVG” when trying to find values for the conditions you set. Here are the most common: 
+
+    1.	AND 
+    2.	FALSE
+    3.	IF 
+    4.	IFERROR
+    5.	NOT 
+    6.	TRUE
+    7.	OR 
+
+TLDR; Use logical functions when you want to check the result of an expression and create conditions.  
+
+&nbsp;
+&nbsp;
+
+## #dailycoding 040 of 365 
+8/4/2020
+Today I learned about errors in #DAX and how to handle them. There are three kinds of errors in DAX. They are listed as so: 
+  
+    1.	Conversion 
+    2.	Arithmetical 
+    3.	Empty or Missing Values 
+
+Conversion errors are simply errors that happen when you write code and the data types are mismatched going from one data type to another, causing an error. Arithmetical errors are errors that happen when you write code with values that are invalid. Empty or missing values are just that, the code you wrote can’t execute because there are empty or missing values in the columns. 
+You can use functions like “ISERROR/IFERROR” to test for errors in your code if they’re written to return values that are either true or false, but it’s best to use “BLANK()” in those situations. 
+
 
 &nbsp;
 &nbsp;
